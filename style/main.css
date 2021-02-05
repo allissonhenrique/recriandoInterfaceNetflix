@@ -12,7 +12,7 @@
 /* Elementos base */
 body {
     background-color: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -44,6 +44,7 @@ header nav a:hover {
 .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100%), url('/img/capa-listaNegra.jpg');
+    
 
     height: 400px;
     background-size: cover;
@@ -81,8 +82,19 @@ header nav a:hover {
 .botao:hover {
     background-color: white;
     color: black;
-
 }
+
+.botao a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+.botao a:hover {
+    background-color: white;
+    color: black;
+}
+
 
 .botao i {
     margin-right: 8px;
@@ -100,4 +112,8 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 7px;
 }
